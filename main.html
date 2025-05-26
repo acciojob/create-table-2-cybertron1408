@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Create Table</title>
   <style>
     body {
@@ -17,7 +17,7 @@
       border: 1px solid #333;
       padding: 10px 20px;
     }
-    button {
+    input[type="button"] {
       padding: 10px 20px;
       font-size: 16px;
       cursor: pointer;
@@ -27,8 +27,8 @@
 <body>
 
   <h2>Dynamic Table Generator</h2>
-  <button onclick="createTable()">Create the table</button>
-  <br><br>
+  <input type="button" value="Create the table" onclick="createTable()" />
+  <br /><br />
   <table id="myTable"></table>
 
   <script>
